@@ -1,3 +1,35 @@
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(239, 222, 201);
+    box-sizing: border-box;
+}
+
 nav{
-  
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    background-color: rgb(234, 246, 255);
+    font-weight: bold;
+    padding: 19px 28px;
+    margin: 10px;
+    border-radius: 12px;
+    list-style-type: none;
+}
+
+li:hover{
+    cursor:pointer;
+    background-color: rgb(163, 171, 177);
+    transition: 0.3s ease-in-out;
+    a{
+        color:aliceblue;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 19px 18px;
 }
